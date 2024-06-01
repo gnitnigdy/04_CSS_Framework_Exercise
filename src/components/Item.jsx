@@ -7,11 +7,11 @@ function Item({ item, onDeleteItem, onUpdateStatus }) {
         type="checkbox"
         value={item.taskStatus}
         onClick={() => onUpdateStatus(item.id)}
-        id="flexCheckDefault"
+        id={`flexCheckDefault_${item.id}`}
       />
       <label
         className="form-check-label"
-        htmlFor="flexCheckDefault"
+        htmlFor={`flexCheckDefault_${item.id}`}
         style={
           item.taskStatus === true ? { textDecoration: "line-through" } : {}
         }
