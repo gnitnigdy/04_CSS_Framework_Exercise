@@ -39,3 +39,37 @@ li {
   background-color: transparent;
   border: 1px solid rgba(92, 171, 139, 255);
 }
+
+.btn-list-item {
+  background-color: transparent;
+  border-color: rgba(247, 173, 178, 255);
+  color: rgba(247, 173, 178, 255);
+}
+
+.btn-list-item:hover {
+  background-color: rgba(247, 173, 178, 255);
+  border-color: rgba(192, 157, 165, 255);
+  color: rgba(255, 255, 255, 255);
+}
+
+.btn-add-task {
+  background-color: rgba(142, 204, 250, 255);
+  border-color: rgba(14, 35, 54, 255);
+
+  color: rgba(14, 35, 54, 255);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn-add-task:hover {
+  background-color: rgba(14, 35, 54, 255);
+  border-color: rgba(142, 204, 250, 255);
+  color: rgba(142, 204, 250, 255);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#inputListItem {
+  background-color: transparent;
+  color: whitesmoke;
+}

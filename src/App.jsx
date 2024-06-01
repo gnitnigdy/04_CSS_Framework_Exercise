@@ -52,7 +52,7 @@ function App() {
   return (
     <>
       <div className="container">
-        <h1 className="text-center">Chores To Do</h1>
+        <h1 className="text-center mb-5">Chores To Do</h1>
         <div className="main-container-list text-start">
           <ListItem
             items={listItem}

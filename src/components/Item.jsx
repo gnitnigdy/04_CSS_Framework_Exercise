@@ -20,7 +20,7 @@ function Item({ item, onDeleteItem, onUpdateStatus }) {
       </label>
       <button
         type="button"
-        className="btn btn-primary"
+        className="btn btn-primary btn-list-item"
         onClick={() => onDeleteItem(item.id)}
       >
         <i className="fa-regular fa-trash-can"></i>

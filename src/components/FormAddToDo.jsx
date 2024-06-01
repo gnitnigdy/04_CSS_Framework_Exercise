@@ -35,7 +35,7 @@ function FormAddToDo({ onAddNewItem }) {
             }}
           />
         </div>
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" className="btn btn-primary btn-add-task">
           Add Task
         </button>
       </form>
